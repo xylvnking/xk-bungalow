@@ -41,7 +41,7 @@ export default function Watch() {
         src="https://www.youtube.com/embed/2JDPRAnqHDw" 
         title="Bungalow Jonathan - Love Online (Music Video)" 
         frameBorder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media;" 
         allowFullScreen
         className={styles.youtubeVideo}
         

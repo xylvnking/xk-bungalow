@@ -4,6 +4,7 @@ import Hero from '../Components/Hero'
 import Nav from '../Components/Nav'
 import Music from '../Components/Music'
 import Merch from '../Components/Merch'
+import About from '../Components/About'
 // import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
         <Nav />
         <Music />
         <Merch />
+        <About />
        
       </main>
 
