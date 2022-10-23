@@ -5,6 +5,8 @@ import Nav from '../Components/Nav'
 import Music from '../Components/Music'
 import Merch from '../Components/Merch'
 import About from '../Components/About'
+import Contact from '../Components/Contact'
+import Pattern from '../Components/Pattern'
 // import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -19,9 +21,11 @@ export default function Home() {
       <main>
         <Hero />
         <Nav />
+        {/* <Pattern /> */}
         <Music />
         <Merch />
         <About />
+        <Contact />
        
       </main>
 
