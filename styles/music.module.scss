@@ -1,0 +1,87 @@
+$black: rgb(30, 30, 30);
+$light-black: #5f5f5f;
+$red: rgba(255,91,91,1);
+$pink: #c252e1;
+$purple: #7D59C7;
+$blue-light: #6ecbf5;
+$blue: #00a3ff;
+$green: #00c735;
+
+$subtle-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+$card-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+$smooth-shadow-1: 2.8px 1.3px 2.2px rgba(0, 0, 0, 0.02), 6.7px 3.1px 5.3px rgba(0, 0, 0, 0.028), 12.5px 5.8px 10px rgba(0, 0, 0, 0.035), 22.3px 10.3px 17.9px rgba(0, 0, 0, 0.042), 41.8px 19.2px 33.4px rgba(0, 0, 0, 0.05), 100px 46px 80px rgba(0, 0, 0, 0.07); //https://shadows.brumm.af/
+$smooth-shadow-2: 1.6px 1.3px 2.2px rgba(0, 0, 0, 0.014), 3.8px 3.2px 5.3px rgba(0, 0, 0, 0.02), 7.1px 6px 10px rgba(0, 0, 0, 0.025), 12.7px 10.7px 17.9px rgba(0, 0, 0, 0.03), 23.8px 20.1px 33.4px rgba(0, 0, 0, 0.036), 57px 48px 80px rgba(0, 0, 0, 0.05);
+$smooth-shadow-3: 0.8px 0.7px 0.6px rgba(0, 0, 0, 0.028), 1.8px 1.5px 1.3px rgba(0, 0, 0, 0.041), 3.3px 2.7px 2.4px rgba(0, 0, 0, 0.051), 5.6px 4.6px 4px rgba(0, 0, 0, 0.059), 9.4px 7.8px 6.6px rgba(0, 0, 0, 0.069), 17px 14.1px 11.6px rgba(0, 0, 0, 0.082), 35px 29px 25px rgba(0, 0, 0, 0.11);
+
+$max-width: 1500px;
+
+.blueText { color: $blue}
+.greenText { color: $green; }
+.purpleText { color: $purple; }
+
+.underline { text-decoration: underline; cursor: pointer;}
+
+$merriweather: 'Merriweather', serif;
+$opensans: 'Open Sans', sans-serif;
+$poppins: 'Poppins', sans-serif;
+$pixel: 'Silkscreen', cursive;
+$hand: 'Reenie Beanie', cursive;
+
+
+$breakpoint: 700px;
+
+#musicContainer {
+    // height: 200vh;
+    // background-color: #d58757;
+    // background-image: url('/bung2.png');
+    // background-size: 50px;
+    // background-repeat:round;
+    max-width: 2000px;
+    margin: auto;
+    background-size: cover;
+    background-image: url('https://media1.giphy.com/media/HUlRqqImjJAHP7jtfa/giphy.gif?cid=790b7611038da8034e637efaae6ba9d93e9a4d67ddf3938c&rid=giphy.gif&ct=g');
+    // background-image: url('https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/281731520_541952834008519_814805359347836168_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=KhNiKOacktMAX8QQItt&_nc_ht=scontent-lga3-2.xx&oh=00_AT89Wedf-DYOc8MBuZsZWQog4eVWx0M5EwmF002j_ipl9Q&oe=635A94E8');
+    // background-image: url('http://www.textures4photoshop.com/tex/thumbs/seamless-natural-wood-texture-thumb29.jpg');
+    padding: 100px 10px 100px 10px;
+    
+    margin-top: 0px;
+
+    #flexBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        width: 100%;
+        max-width: 750px;
+        gap: 20px;
+        // background-color: #000000;
+        // border-radius: 10px;
+        // box-shadow: $card-shadow;
+        .youtubeVideo {
+            // border-radius: 15px;
+            width: 100%;
+            max-width: 750px;
+            height: 425px;
+            box-shadow: $card-shadow;
+            // border: solid white 25px;
+            // object-fit: cover;
+        }
+        // .youtubeVideo2 {
+        //     border-radius: 50%;
+        //     width: 100%;
+        //     max-width: 500px;
+        //     // height: 425px;
+        //     height: 500px;
+        //     box-shadow: $card-shadow;
+        //     // border: solid white 5px;
+        //     // object-fit: cover;
+        // }
+        .spotifyEmbed {
+            width: 100%;
+            max-width: 750px;
+            box-shadow: $card-shadow;
+            // box-shadow: $card-shadow;
+        }
+    }
+}
