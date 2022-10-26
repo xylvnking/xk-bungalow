@@ -11,6 +11,11 @@ export default function Nav() {
                     Music
                 </a>
             </li>
+            <li id={styles['news']}>
+                <a>
+                    News
+                </a>
+            </li>
             <li id={styles['merch']}>
                 <a>
                     Merch

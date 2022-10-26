@@ -12,11 +12,12 @@ export default function NewsPost(props) {
             <Image 
                 src={props.image}
                 objectFit='contain' 
-                layout='fill'
+                // layout='fill'
             />
         </div>
         <div className={styles.textDiv}>
             <h1>{props.title}</h1>
+            <p className={styles.date}>{props.date}</p>
             <p>{props.text}</p>
         </div>
     </div>

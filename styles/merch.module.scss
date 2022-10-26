@@ -37,6 +37,8 @@ $breakpoint: 700px;
     max-width: 2000px;
     margin: auto;
     min-height: 75vh;
+    z-index: 10;
+    position: relative;
     // background-color: #00a3ff;
     #grid {
         // @
@@ -69,7 +71,12 @@ $breakpoint: 700px;
                 // border-radius: 5px;
                 
                 margin: 20px;
+                // padding: 20px;
             }
+            background-color: white;
+            border-radius: 10px;
+            border: $black 2px solid;
+            box-shadow: $card-shadow;
             // margin: auto;
             // margin-top: 10px;
             // margin-bottom: 10px;

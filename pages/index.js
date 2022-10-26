@@ -23,7 +23,7 @@ export default function Home() {
       <main>
         <Hero />
         <Nav />
-        {/* <Pattern /> */}
+        <Pattern />
         <Music />
         <News />
         <About />

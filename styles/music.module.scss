@@ -38,8 +38,10 @@ $breakpoint: 700px;
     // background-repeat:round;
     max-width: 2000px;
     margin: auto;
+    z-index: 10;
+    position: relative;
     background-size: cover;
-    background-image: url('https://media1.giphy.com/media/HUlRqqImjJAHP7jtfa/giphy.gif?cid=790b7611038da8034e637efaae6ba9d93e9a4d67ddf3938c&rid=giphy.gif&ct=g');
+    // background-image: url('https://media1.giphy.com/media/HUlRqqImjJAHP7jtfa/giphy.gif?cid=790b7611038da8034e637efaae6ba9d93e9a4d67ddf3938c&rid=giphy.gif&ct=g');
     // background-image: url('https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/281731520_541952834008519_814805359347836168_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=KhNiKOacktMAX8QQItt&_nc_ht=scontent-lga3-2.xx&oh=00_AT89Wedf-DYOc8MBuZsZWQog4eVWx0M5EwmF002j_ipl9Q&oe=635A94E8');
     // background-image: url('http://www.textures4photoshop.com/tex/thumbs/seamless-natural-wood-texture-thumb29.jpg');
     padding: 100px 10px 100px 10px;
@@ -86,19 +88,3 @@ $breakpoint: 700px;
     }
 }
 
-#patternContainer {
-    padding: 20px;
-    background-color: #d58757;
-    // background-image: url('https://media2.giphy.com/media/xT9Igqq02d80wIqUpy/giphy.gif?cid=ecf05e47w7qxw2m03vvz4psh9hw3cx27e5005piaznh5reug&rid=giphy.gif&ct=g');
-    // background-position: center;
-    // background-size: cover;
-    #pattern {
-        height: 150px;
-        // height: 200vh;
-    // background-image: url('/bung2.png');
-    // background-size: 60px;
-    // background-repeat:round;
-
-
-    }
-}

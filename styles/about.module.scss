@@ -35,6 +35,8 @@ $breakpoint: 700px;
     max-width: 2000px;
     margin: auto;
     min-height: 75vh;
+    z-index: 10;
+    position: relative;
     // background-color: #00a3ff;
     
     
@@ -52,6 +54,7 @@ $breakpoint: 700px;
             gap: 20px;
             padding: 40px;
             padding-bottom: 150px;
+            padding-top: 50px;
         }
 
         .imageWrapper {
@@ -66,9 +69,10 @@ $breakpoint: 700px;
                 padding: 20px;
                 padding-bottom: 60px;
                 max-width: 50%;
+                background-color: white;
                 // transform: rotate(-10deg) translateX(-100px);
                 transform: rotate(-10deg) ;
-
+                
                 // flex-direction: row;
                 // gap: 20px;
                 // padding: 20px;
@@ -82,6 +86,7 @@ $breakpoint: 700px;
             border-radius: 10px;
             // background-color: #00a3ff;
             z-index: 99;
+            box-shadow: $card-shadow;
             @media(min-width:700px) {
                 transform: rotate(2deg) ;
                 // box-shadow: $subtle-shadow;

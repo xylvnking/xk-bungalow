@@ -43,6 +43,10 @@ $breakpoint: 700px;
     position: sticky;
     top: 0px;
     z-index: 999;
+    @media(max-width: 800px) {
+        display: none;
+    
+    }
 
     
     ul {
@@ -53,7 +57,7 @@ $breakpoint: 700px;
         list-style: none;
         flex-direction: column;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        // grid-template-columns: 1fr 1fr 1fr 1fr;
         // overflow: hidden;
         @media(min-width: 800px) {
                 display: flex;

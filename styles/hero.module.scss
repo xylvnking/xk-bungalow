@@ -34,8 +34,10 @@ $marker: 'Permanent Marker', cursive;
 $breakpoint: 700px;
 
 #heroContainer {
-    // background-color: #00B140;
+    background-color: white;
     // width: 100%;
+    z-index: 10;
+    position: relative;
     max-width: 2000px;
     margin: auto;
     #flexBox {
