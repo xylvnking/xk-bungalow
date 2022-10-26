@@ -29,7 +29,7 @@ $poppins: 'Poppins', sans-serif;
 $pixel: 'Silkscreen', cursive;
 $hand: 'Reenie Beanie', cursive;
 $marker: 'Permanent Marker', cursive;
-
+$franklin: 'Libre Franklin', sans-serif;
 
 
 $breakpoint: 700px;
@@ -91,8 +91,9 @@ $breakpoint: 700px;
                 max-width: 75ch;
                 text-align: justify;
                 font-family: $poppins;
+                font-family: $franklin;
                 font-size: 12px;
-
+                
                 // font-size: 24px;
             }
             .date {
@@ -107,6 +108,7 @@ $breakpoint: 700px;
             }
             h1 {
                 font-family: $marker;
+                font-family: $franklin;
                 @media(max-width: 900px) {
                     text-align: center;
                     margin-top: 10px;

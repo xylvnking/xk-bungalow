@@ -27,6 +27,7 @@ $poppins: 'Poppins', sans-serif;
 $pixel: 'Silkscreen', cursive;
 $hand: 'Reenie Beanie', cursive;
 $marker: 'Permanent Marker', cursive;
+$franklin: 'Libre Franklin', sans-serif;
 
 
 $breakpoint: 700px;
@@ -95,6 +96,7 @@ $breakpoint: 700px;
             
             h1 {
                 font-family: $marker;
+                // font-family: $franklin;
                 font-size: 2rem;
                 text-align: center;
                 // transform: rotate(2deg);
@@ -106,6 +108,7 @@ $breakpoint: 700px;
             p {
                 text-shadow: 1px 1px 1px rgb(218, 218, 218);
                 
+                // font-family: $franklin;
                 // z-index: 99;
                 font-family: $hand;
                 max-width: 60ch;

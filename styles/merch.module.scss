@@ -29,6 +29,7 @@ $poppins: 'Poppins', sans-serif;
 $pixel: 'Silkscreen', cursive;
 $hand: 'Reenie Beanie', cursive;
 $marker: 'Permanent Marker', cursive;
+$franklin: 'Libre Franklin', sans-serif;
 
 
 $breakpoint: 700px;
@@ -89,6 +90,7 @@ $breakpoint: 700px;
                 // border-left: $light-black 5px solid;
                 padding: 20px;
                 font-family: $marker;
+                font-family: $franklin;
                 // background-color: #00a3ff;
                 display: grid;
                 color: $black;
@@ -101,6 +103,7 @@ $breakpoint: 700px;
                     font-family: $hand;
                     // font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                     font-family: $poppins;
+                    // font-family: $fr;
                     font-size: 12px;
                     color: $light-black;
                     margin: 0px;

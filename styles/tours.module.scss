@@ -29,6 +29,7 @@ $poppins: 'Poppins', sans-serif;
 $pixel: 'Silkscreen', cursive;
 $hand: 'Reenie Beanie', cursive;
 $marker: 'Permanent Marker', cursive;
+$franklin: 'Libre Franklin', sans-serif;
 
 
 
@@ -52,6 +53,7 @@ $breakpoint: 700px;
         .tourDate {
             font-family: $opensans;
             font-family: $marker;
+            font-family: $franklin;
             // font-family: $poppins;
             color: $black;
             display: flex;
@@ -59,6 +61,7 @@ $breakpoint: 700px;
             @media(min-width: 800px) {
                 flex-direction: row;
                 justify-content:space-between;
+                align-items: baseline;
                 // background-color: #00a3ff;
                 width: 750px;
                 // border-bottom: $light-black solid 1px;
@@ -75,24 +78,31 @@ $breakpoint: 700px;
                 font-size: 16px;
                 color: $light-black;
                 
+                font-family: $hand;
+                font-size: 24px;
+                
                 // font-weight: 300;
 
             }
             p {
                 font-family: $poppins;
-                font-family: $hand;
+                // font-family: $hand;
+                // font-family: $franklin;
                 margin: 0px;
                 padding: 0px;
                 // font-family: $marker;
                 color: $light-black;
-                font-size: 24px;
+                font-size: 16px;
             }
             a {
                 // font-family: $poppins;
-                font-size: 24px;
+                // font-size: 24px;
                 color: $light-black;
                 font-family: $hand;
+                // font-family: $franklin;
+                font-family: $poppins;
                 text-decoration: underline;
+                color: $blue-light;
                 &:hover {
                     color: #00a3ff;
                     cursor: pointer;
@@ -106,9 +116,10 @@ $breakpoint: 700px;
                 flex-direction: column;
                 gap: 10px;
                 align-items: baseline;
+                align-items: center;
                 @media(min-width: 750px) {
                     flex-direction: row;
-                    align-items: center;
+                    align-items: baseline;
                     justify-content: center;
     
                 }
@@ -121,6 +132,7 @@ $breakpoint: 700px;
                 gap: 10px;
                 align-items: center;
                 justify-content: baseline;
+                // justify-content: center;
             }
         }
     }
