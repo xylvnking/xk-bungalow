@@ -7,6 +7,7 @@ import Merch from '../Components/Merch'
 import About from '../Components/About'
 import Contact from '../Components/Contact'
 import Pattern from '../Components/Pattern'
+import Tours from '../Components/Tours'
 // import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
         <Music />
         <Merch />
         <About />
+        <Tours />
         <Contact />
        
       </main>

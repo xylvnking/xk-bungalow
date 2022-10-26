@@ -1,0 +1,124 @@
+$black: rgb(30, 30, 30);
+$light-black: #5f5f5f;
+$red: rgba(255,91,91,1);
+$pink: #c252e1;
+$purple: #7D59C7;
+$blue-light: #6ecbf5;
+$blue: #00a3ff;
+$green: #00c735;
+
+$subtle-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+$card-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+$smooth-shadow-1: 2.8px 1.3px 2.2px rgba(0, 0, 0, 0.02), 6.7px 3.1px 5.3px rgba(0, 0, 0, 0.028), 12.5px 5.8px 10px rgba(0, 0, 0, 0.035), 22.3px 10.3px 17.9px rgba(0, 0, 0, 0.042), 41.8px 19.2px 33.4px rgba(0, 0, 0, 0.05), 100px 46px 80px rgba(0, 0, 0, 0.07); //https://shadows.brumm.af/
+$smooth-shadow-2: 1.6px 1.3px 2.2px rgba(0, 0, 0, 0.014), 3.8px 3.2px 5.3px rgba(0, 0, 0, 0.02), 7.1px 6px 10px rgba(0, 0, 0, 0.025), 12.7px 10.7px 17.9px rgba(0, 0, 0, 0.03), 23.8px 20.1px 33.4px rgba(0, 0, 0, 0.036), 57px 48px 80px rgba(0, 0, 0, 0.05);
+$smooth-shadow-3: 0.8px 0.7px 0.6px rgba(0, 0, 0, 0.028), 1.8px 1.5px 1.3px rgba(0, 0, 0, 0.041), 3.3px 2.7px 2.4px rgba(0, 0, 0, 0.051), 5.6px 4.6px 4px rgba(0, 0, 0, 0.059), 9.4px 7.8px 6.6px rgba(0, 0, 0, 0.069), 17px 14.1px 11.6px rgba(0, 0, 0, 0.082), 35px 29px 25px rgba(0, 0, 0, 0.11);
+
+$subtle-text-shadow-1: 1px 1px 1px rgb(218, 218, 218);
+
+$max-width: 1500px;
+
+.blueText { color: $blue}
+.greenText { color: $green; }
+.purpleText { color: $purple; }
+
+.underline { text-decoration: underline; cursor: pointer;}
+
+$merriweather: 'Merriweather', serif;
+$opensans: 'Open Sans', sans-serif;
+$poppins: 'Poppins', sans-serif;
+$pixel: 'Silkscreen', cursive;
+$hand: 'Reenie Beanie', cursive;
+$marker: 'Permanent Marker', cursive;
+
+
+
+$breakpoint: 700px;
+
+#toursContainer {
+    // min-height: 50vh;
+    padding: 100px 0px 100px 0px;
+    #flexBox {
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        .tourDate {
+            font-family: $opensans;
+            font-family: $marker;
+            // font-family: $poppins;
+            color: $black;
+            display: flex;
+            flex-direction: column;
+            @media(min-width: 800px) {
+                flex-direction: row;
+                justify-content:space-between;
+                // background-color: #00a3ff;
+                width: 750px;
+                // border-bottom: $light-black solid 1px;
+
+            }
+            h1 {
+                margin: 0px;
+                padding: 0px;
+                font-size: 28px;
+            }
+            h2 {
+                margin: 0px;
+                padding: 0px;
+                font-size: 16px;
+                color: $light-black;
+                
+                // font-weight: 300;
+
+            }
+            p {
+                font-family: $poppins;
+                font-family: $hand;
+                margin: 0px;
+                padding: 0px;
+                // font-family: $marker;
+                color: $light-black;
+                font-size: 24px;
+            }
+            a {
+                // font-family: $poppins;
+                font-size: 24px;
+                color: $light-black;
+                font-family: $hand;
+                text-decoration: underline;
+                &:hover {
+                    color: #00a3ff;
+                    cursor: pointer;
+                }
+            }
+            // font-weight: 500;
+            // background-color: #00a3ff;
+            .innerFlex1 {
+                padding-top: 10px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                align-items: baseline;
+                @media(min-width: 750px) {
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+    
+                }
+                // justify-content: baseline;
+
+            }
+            .innerFlex2 {
+                padding-top: 10px;
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                justify-content: baseline;
+            }
+        }
+    }
+}

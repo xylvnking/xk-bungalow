@@ -21,6 +21,11 @@ export default function Nav() {
                     About
                 </a>
             </li>
+            <li id={styles['tours']}>
+                <a>
+                    Tours
+                </a>
+            </li>
             <li id={styles['contact']}>
                 <a>
                     Contact
